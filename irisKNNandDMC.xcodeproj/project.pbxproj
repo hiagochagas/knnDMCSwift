@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6E3E394C267B82F000E38B12 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E394B267B82F000E38B12 /* main.swift */; };
+		6E3E3953267B84BA00E38B12 /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E3952267B84BA00E38B12 /* Dataset.swift */; };
+		6ED4BDBF267CE0C300C294F6 /* dmc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4BDBE267CE0C300C294F6 /* dmc.swift */; };
+		6EEB44C82680D4E100D12FE9 /* knn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB44C72680D4E100D12FE9 /* knn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		6E3E3948267B82F000E38B12 /* irisKNNandDMC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = irisKNNandDMC; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3E394B267B82F000E38B12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6E3E3952267B84BA00E38B12 /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		6ED4BDBE267CE0C300C294F6 /* dmc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dmc.swift; sourceTree = "<group>"; };
+		6EEB44C72680D4E100D12FE9 /* knn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				6E3E394B267B82F000E38B12 /* main.swift */,
+				6E3E3952267B84BA00E38B12 /* Dataset.swift */,
+				6ED4BDBE267CE0C300C294F6 /* dmc.swift */,
+				6EEB44C72680D4E100D12FE9 /* knn.swift */,
 			);
 			path = irisKNNandDMC;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3E3953267B84BA00E38B12 /* Dataset.swift in Sources */,
+				6ED4BDBF267CE0C300C294F6 /* dmc.swift in Sources */,
 				6E3E394C267B82F000E38B12 /* main.swift in Sources */,
+				6EEB44C82680D4E100D12FE9 /* knn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
